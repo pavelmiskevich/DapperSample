@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/DapperNUnitTest/testhost.dll.config
+/DapperExample/App.config

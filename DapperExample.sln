@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperExample", "DapperExample\DapperExample.csproj", "{61B25012-1336-47E4-96E6-731967FB6906}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperNUnitTest", "DapperNUnitTest\DapperNUnitTest.csproj", "{A723F67A-59C2-4BF0-80AD-A15F397252BB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DapperTestDB", "DapperTestDB\DapperTestDB.sqlproj", "{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperClassLibrary", "DapperClassLibrary\DapperClassLibrary.csproj", "{7839F0A3-E27F-4DCA-AE31-1A81B93C3DF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,20 @@ Global
 		{61B25012-1336-47E4-96E6-731967FB6906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B25012-1336-47E4-96E6-731967FB6906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B25012-1336-47E4-96E6-731967FB6906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A723F67A-59C2-4BF0-80AD-A15F397252BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A723F67A-59C2-4BF0-80AD-A15F397252BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A723F67A-59C2-4BF0-80AD-A15F397252BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A723F67A-59C2-4BF0-80AD-A15F397252BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B765CF11-DD50-4D4A-A43D-2EB08A6544D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7839F0A3-E27F-4DCA-AE31-1A81B93C3DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7839F0A3-E27F-4DCA-AE31-1A81B93C3DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7839F0A3-E27F-4DCA-AE31-1A81B93C3DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7839F0A3-E27F-4DCA-AE31-1A81B93C3DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
